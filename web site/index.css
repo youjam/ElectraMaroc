@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    /*background-image: linear-gradient(to right, #b3b3b3,#00FFFF);*/
+    background-image: linear-gradient(to right, #999999,#00a2ff);
+    height: 40px;
+}
+
+.navbar-brand 
+{
+    height: 20px;
+    
+}
+.talag 
+{
+    height: 200px;
+    width: 300px;
+   
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:black !important;
+}
+/*----------------banner section------------------*/
+#banner
+{
+   /* background-image: linear-gradient(to right, #F8F8FF,#f2f2f2);*/
+   background-image: linear-gradient(to right, #8c8c8c,#00a2ff);
+    color: black;
+    padding-top: 5%;
+}
+
+.img-fluid
+{
+    height: 250px;
+    width: 250px;
+    
+}
+.bottom-img
+{
+    width: 100%;
+}
+/*----------------services section------------------*/
+#sevices
+{
+    padding: 0 80px;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#sevices .btn-primary
+{
+    height: 30px;
+    width: 180px;
+    box-shadow: none;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #b3b3b3,#00FFFF);
+    
+}
+/*----------------footer section------------------*/
+#footer
+{
+    /*background-image: linear-gradient(to right, #b3b3b3,#00FFFF);*/
+    background-image: linear-gradient(to right, #8c8c8c,#00a2ff);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+    
+}
+.footer-box
+{
+    padding: 20px;
+    
+}
+.footer-box img
+{
+    width: 220px;
+    margin-bottom: 20px;
+}
+.QR
+{
+    height: 200px;
+    width: 200px;
+}
+.mala
+{
+    font-size: 30px;
+    font-weight: 10px;
+}
+.la
+{
+    margin-left: 70%;
+    margin-bottom: 0%;
+    
+}
+.nano
+{
+    margin-left: 70%;
+    color: black;
+}
+hr
+{
+    background-image: linear-gradient(to right, #706f6f,black);
+}
